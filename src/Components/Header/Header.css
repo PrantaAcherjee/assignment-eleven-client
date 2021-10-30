@@ -1,0 +1,22 @@
+.headers a {
+    color: rgb(218, 13, 13);
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+.headers button{
+    color: white;
+    background-color: darkorange;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.headers{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.iconPlane{
+  color: white;
+  
+}
+ 

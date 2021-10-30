@@ -1,0 +1,17 @@
+.about{
+
+   
+   background-image: url("https://media.istockphoto.com/photos/big-journeys-begin-with-small-steps-sign-on-road-picture-id1297465843?b=1&k=20&m=1297465843&s=170667a&w=0&h=BW2ydrg4D3n7dp-QghUYswnJRslJbBelBPFZVKPVok0=");
+   height: 400px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size:cover;
+   background-blend-mode: overlay;
+   
+}
+.text-style{
+    text-justify:newspaper;
+    word-break: normal;
+}
+ 
