@@ -4,7 +4,7 @@ import './Packages.css'
 const Packages = () => {
   const[packages,setPackages]=useState([]);
   useEffect(()=>{
-fetch('./FakeData.json')
+fetch('http://localhost:5000/services')
 .then(res=>res.json())
 .then(data=>setPackages(data));
 
@@ -23,7 +23,7 @@ fetch('./FakeData.json')
     <h2 className="">{pack.name}</h2>
     <h5>Price:${pack.price}</h5>
     <p className=""><small>{pack.description}</small></p>
-    <Link to={`/order/${pack.id}`}>
+    <Link to={`/order/${pack._id}`}>
     
     <button className="bg-success text-white rounded-pill p-1">Confirm Order</button>
     </Link>

@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
@@ -9,7 +8,8 @@ import About from './Components/About/About';
 import Error from './Components/Error/Error';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Order from './Components/Order/Order';
-import ManageService from './Components/ManageService/ManageService';
+import AddService from './Components/AddService/AddService';
+import ManageUser from './Components/ManageUser/ManageUser';
 
 function App() {
   return (
@@ -31,13 +31,15 @@ function App() {
       <Route path="/about">
         <About></About>
       </Route>
-      <PrivateRoute path="/order/:id">
+      <PrivateRoute path="/order/:_id">
       <Order></Order>
       </PrivateRoute>
-    <PrivateRoute>
-    <ManageService></ManageService>
+    <PrivateRoute path="/addservice">
+    <AddService></AddService>
     </PrivateRoute>
-
+    <PrivateRoute path="/manageuser">
+      <ManageUser></ManageUser>
+    </PrivateRoute>
       <Route path="*">
         <Error></Error>
       </Route>
