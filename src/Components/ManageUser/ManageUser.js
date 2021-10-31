@@ -23,12 +23,19 @@ const ManageUser = () => {
     }
     return (
         <div>
-           <h2>Manage your Service</h2>
+           <h2 className="h-2">Manage your Service</h2>
            {
                services.map(service=><div key={service._id}>
 
-                   <h2>{service.Name}</h2>
-                   <button onClick={()=>handleRemove(service._id)}>Remove</button>
+                   <div className="d-flex justify-content-center align-items-center m-3 p-3 ">
+                   <div className="m-3">
+                   <h2 className="text-danger">{service.Name}</h2>
+                   <img className="img-fluid" src={service.img} alt="" />
+                   </div>
+                   <div>
+                   <button className="text-white bg-danger m-5 p-3 rounded-pill" onClick={()=>handleRemove(service._id)}>Remove</button>
+                   </div>
+                   </div>
                </div>)
            } 
         </div>

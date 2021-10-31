@@ -15,8 +15,13 @@ const Header = (
             <div className="headers col-md-6">
              
              <Link to ="/home">Home</Link>
-             <Link to="/addservice">Add Service</Link>
-             <Link to="/manageuser"> Manage User</Link>
+             {user.email &&
+                 <Link to="/addservice">Add Service</Link>
+             }
+             {
+                 user.email &&
+                 <Link to="/manageuser"> Manage User</Link>
+             }
              <Link to="/about">About us</Link>
              <Link to="/faq">FAQ</Link>
               <Link to="/login">Log in</Link>

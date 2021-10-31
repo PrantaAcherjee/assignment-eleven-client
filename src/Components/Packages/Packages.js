@@ -19,8 +19,9 @@ fetch('https://cryptic-harbor-59269.herokuapp.com/services')
 <div class="row row-cols-1 row-cols-md-3 g-6 pack-div">
   {packages.map(pack=><div
   className="col single-pack" key={pack.id}>
+    
     <img className="img-fluid" src={pack.img} alt="" />
-    <h2 className="">{pack.name}</h2>
+    <h2 className="name-color">Country:{pack.Name}</h2>
     <h5>Price:${pack.price}</h5>
     <p className=""><small>{pack.description}</small></p>
     <Link to={`/order/${pack._id}`}>
