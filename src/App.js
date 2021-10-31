@@ -10,6 +10,8 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Order from './Components/Order/Order';
 import AddService from './Components/AddService/AddService';
 import ManageUser from './Components/ManageUser/ManageUser';
+import FAQ from './Components/FAQ/FAQ';
+import Confirm from './Components/ConfirmOrder/Confirm';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
     <PrivateRoute path="/manageuser">
       <ManageUser></ManageUser>
     </PrivateRoute>
+    <Route path="/confirm">
+      <Confirm></Confirm>
+    </Route>
+    <Route path="/faq">
+      <FAQ></FAQ>
+    </Route>
       <Route path="*">
         <Error></Error>
       </Route>

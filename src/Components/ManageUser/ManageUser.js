@@ -4,12 +4,12 @@ import { useState, useEffect } from 'react';
 const ManageUser = () => {
     const [services,setServices]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/services/')
+        fetch('https://cryptic-harbor-59269.herokuapp.com/services/')
         .then(res=>res.json())
         .then(data=>setServices(data));
     },[])
     const handleRemove=id=>{
-        const url=`http://localhost:5000/services/${id}`
+        const url=`https://cryptic-harbor-59269.herokuapp.com/services/${id}`
         fetch(url,{
             method:"DELETE"
         })

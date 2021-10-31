@@ -1,5 +1,5 @@
 .headers a {
-    color: rgb(218, 13, 13);
+    color: white;
     margin-left: 20px;
     text-decoration: none;
     font-size: large;
@@ -15,8 +15,10 @@
     margin-bottom: 15px;
     margin-top: 5px;
 }
-.iconPlane{
-  color: white;
-  
-}
  
+ .logo{
+     color: crimson;
+     text-align: center;
+     align-items: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
