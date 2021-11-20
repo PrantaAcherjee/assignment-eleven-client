@@ -2,6 +2,7 @@ import React, { useEffect,useState } from 'react';
 import { useParams } from 'react-router';
 import { useForm } from "react-hook-form";
 import UseAuth from '../../Hooks/UseAuth';
+import "./Order.css"
 
 const Order = () => {
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
