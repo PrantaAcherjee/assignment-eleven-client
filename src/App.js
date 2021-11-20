@@ -11,14 +11,13 @@ import Order from './Components/Order/Order';
 import AddService from './Components/AddService/AddService';
 import ManageUser from './Components/ManageUser/ManageUser';
 import FAQ from './Components/FAQ/FAQ';
-import Confirm from './Components/ConfirmOrder/Confirm';
 
 function App() {
   return (
     <div className="App">
      
-  <AuthProvider>
-  <BrowserRouter>
+      <AuthProvider>
+      <BrowserRouter>
        <Header></Header>
       <Switch>
       <Route exact path="/">
@@ -36,24 +35,21 @@ function App() {
       <PrivateRoute path="/order/:_id">
       <Order></Order>
       </PrivateRoute>
-    <PrivateRoute path="/addservice">
-    <AddService></AddService>
-    </PrivateRoute>
-    <PrivateRoute path="/manageuser">
+      <PrivateRoute path="/addservice">
+      <AddService></AddService>
+      </PrivateRoute>
+      <PrivateRoute path="/manageuser">
       <ManageUser></ManageUser>
-    </PrivateRoute>
-    <Route path="/confirm">
-      <Confirm></Confirm>
-    </Route>
-    <Route path="/faq">
+      </PrivateRoute>
+      <Route path="/faq">
       <FAQ></FAQ>
-    </Route>
+      </Route>
       <Route path="*">
         <Error></Error>
       </Route>
       </Switch>
       </BrowserRouter>
-  </AuthProvider>
+      </AuthProvider>
      
     </div>
   );
