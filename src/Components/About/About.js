@@ -12,7 +12,7 @@ const About = () => {
                <h2 className="text-danger">WELCOME TO TRAVELS FREAK</h2>
               <div className="d-flex justify-content-beween align-items-center mx-5 px-5 ">
               <div>
-            
+            {/* assignment eleven  */}
                All what one needs to enjoy holidays with loved ones? First, is to take a break from the routine schedule and second is to plan where to go? How to go? How to manage the trip? What options are there to choose from? How to get a trip within the budget? Which destination will be suitable as per interest of my family/group? What about the accommodation facilities at selected destination? I want to experience something new in this tour but what and how?
                
                </div>
