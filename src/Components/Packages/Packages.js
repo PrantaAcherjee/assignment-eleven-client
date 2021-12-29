@@ -11,29 +11,29 @@ fetch('https://cryptic-harbor-59269.herokuapp.com/services')
 
   },[])
     return (
-        <div className="mt-3 bg ">
-            <h2 className="pack-h1">Top <span style={{color:'red'}}>Tour Packages</span></h2>
-            <p >World's leading tour and travels Booking website,Over 30,000 packages worldwide.</p>
+        <div className="mt-3">
+            <h2>TOP <span style={{color:'red'}}>TOUR PACKAGES</span></h2>
+            <h6 >World's leading tour and travels Booking website,Over 30,000 packages worldwide.</h6>
              <br />
 
-<div class="row row-cols-1 row-cols-md-3 g-6 pack-div">
-  {packages.map(pack=><div
-  className="col single-pack" key={pack.id}>
+          <div class="row row-cols-1 row-cols-md-3 g-6 ">
+            {packages.map(pack=><div
+            className="col single-pack p-2" key={pack._id}>
     
-    <img className="img-fluid" src={pack.img} alt="" />
-    <h2 className="name-color">Country:{pack.Name}</h2>
-    <h5>Price:${pack.price}</h5>
-    <p className=""><small>{pack.description}</small></p>
+            <img className="img-fluid image" src={pack.img} alt="" />
+            <h2 className="name-color">{pack.Name}</h2>
+            <h5>Price: ${pack.price}</h5>
+            <p className=""><small>{pack.description}</small></p>
     
-    <Link to={`/order/${pack._id}`}>
-    <button className="bg-success text-white rounded-pill p-1">Confirm Order</button>
-    </Link>
-    </div>)
+            <Link to={`/order/${pack._id}`}>
+            <button className="bg-success text-white rounded-pill p-1">Confirm Tour</button>
+            </Link>
+          </div>)
 
 
   }
   
-</div> 
+          </div> 
         </div>
     );
 };

@@ -46,8 +46,8 @@ const Order = () => {
         <h6 className="text-success">Price: ${order.price}</h6>
         </div>
         <div className="col-md-4">
-            <h2 className="text-secondary">Confirmed Soon</h2>
-            <form className="confirm-form" onSubmit={handleSubmit(onSubmit)}>
+        <h2 className="text-secondary">Confirmed Soon</h2>
+        <form className="confirm-form" onSubmit={handleSubmit(onSubmit)}>
         <input defaultValue={user.displayName} {...register("name")} />
         <input defaultValue={user.email} {...register("email", { required: true })}/>
         <input defaultValue={order.Name} {...register("Service",{required:true})} />

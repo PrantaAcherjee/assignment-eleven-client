@@ -28,7 +28,7 @@ const AddService = () => {
              <input type="number" {...register("price")} placeholder="Price"/>
              <input {...register("img")} placeholder="image URL" />
             <input type="submit" />
-                </form>
+            </form>
         </div>
          
     );
