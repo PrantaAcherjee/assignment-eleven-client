@@ -2,10 +2,10 @@ import React from 'react';
 import "./MobileApp.css"
 const MobileApp = () => {
     return (
-        <div className="">
+        <div className="row mt-2">
             <h2 className="h-2">Download Our Mobile App</h2>
             <br />
-            <div className="row">
+             
                 <div className="col-md-3 background">
                     <h4 className="mobile-head">Have you tried our mobile app?</h4>
                     <br /><br />
@@ -35,10 +35,10 @@ const MobileApp = () => {
 
                 </div>
                 <div className="col-md-9">
-                    <img src="http://rn53themes.net/themes/demo/travelz/images/mobile.png" alt="" />
+                    <img className='img-fluid' src="http://rn53themes.net/themes/demo/travelz/images/mobile.png" alt="" />
                 </div>
             </div>
-        </div>
+        
     );
 };
 

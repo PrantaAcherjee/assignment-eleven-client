@@ -2,14 +2,11 @@ import React from 'react';
 import { useHistory, useLocation } from 'react-router';
 import UseAuth from '../../Hooks/UseAuth';
 
-
-
 const Login = () => {
     const {signInUsingGoogle} = UseAuth();
+    const history=useHistory();
     const location=useLocation();
     const redirect_uri=location.state?.from || '/home'
-    const history=useHistory();
-
 
     const handleGoogleLogin=()=>{
 signInUsingGoogle()
