@@ -1,12 +1,8 @@
-.about{
-    background-image: url("https://image.freepik.com/free-vector/earth-globe-airplane_1308-28892.jpg");
-   height: 500px;
-   width: 100%;
-   background-repeat: no-repeat;
-   background-position:center;
-   background-size:cover;
-   background-blend-mode: overlay;
-   
+ .card{
+     height: 200px;
+ }
+.imagesAbout{
+height: 300px;
+border-radius: 5px;
 }
- 
- 
+

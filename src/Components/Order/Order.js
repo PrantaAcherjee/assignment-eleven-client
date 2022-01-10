@@ -14,7 +14,7 @@ const Order = () => {
         fetch(`https://cryptic-harbor-59269.herokuapp.com/services/${_id}`)
         .then(res=>res.json())
         .then(data=>setOrder(data));
-        },[])
+        },[_id])
 
     const onSubmit = data => {
         // console.log(data);

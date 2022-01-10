@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import AuthProvider from './Context/AuthProvider'
@@ -11,14 +10,16 @@ import Order from './Components/Order/Order';
 import AddService from './Components/AddService/AddService';
 import ManageUser from './Components/ManageUser/ManageUser';
 import FAQ from './Components/FAQ/FAQ';
+import Header from './Components/Header/Header';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
      
       <AuthProvider>
       <BrowserRouter>
-       <Header></Header>
+      <Header></Header> 
       <Switch>
       <Route exact path="/">
       < Home></Home>

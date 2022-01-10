@@ -1,12 +1,13 @@
 .banner {
-    background-image: url('https://image.freepik.com/free-vector/time-travel-vector-flyer-with-white-copy-space-sky-with-airplane_134830-1061.jpg') ;
-    height: 500px;
-    width: 100%;
+    background-image: url('https://image.freepik.com/free-vector/isolated-airplane-background_1441-777.jpg') ;
+    height: 450px;
+    
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
   }
   .color{
-      color: rgb(233, 80, 53);
+      color: blue;
   }

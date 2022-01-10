@@ -2,15 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
 import { NavLink } from 'react-router-dom';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import "./Header.css"
 
-const Header = (
-
-) => {
+const Header = () => {
     const { user, logOut } = UseAuth();
     return (
-        <div className="row ">
+        <div className="row pb-2">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
         <Navbar.Brand><h2 className="logo">TRAVELS FREAK</h2></Navbar.Brand>
