@@ -3,7 +3,7 @@ import initializeAuthentication from "../Firebase/Firebase.init";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 initializeAuthentication();
 
-const useFirebase = () => {
+    const useFirebase = () => {
     const [user, setuser] = useState({});
     const [error, setError] = useState('');
     const [email, setEmail] = useState('');
@@ -57,7 +57,7 @@ const useFirebase = () => {
             }
             setIsLoading(false);
         })
-    }, [])
+    }, [auth])
 
     const logOut = () => {
         setIsLoading(true);
