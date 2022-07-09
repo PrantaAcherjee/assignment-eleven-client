@@ -1,5 +1,42 @@
-
-.images{
-    
-    height: 700px;
+.banner-section{
+background-image:linear-gradient(rgba(80, 78, 78, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80');
+height: 550px;   
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
+.content-section h1{
+font-size: 120px;
+font-weight: bolder;
+}
+@media (max-width:400px){
+.content-section h1{
+font-size: 60px;
+font-weight: bolder;
+}
+}
+
+.content-section h4{
+font-size: 35px;
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content-section p{
+font-size: 20px;
+font-weight:lighter;
+margin-bottom: 25px;
+ 
+}
+
+.content-section{
+ color: #fff;
+}
+.content-section button{
+border: none;
+cursor: pointer;
+padding: 1rem 2rem;
+font-size: 18px;
+border-radius: 5px;
+}
+ 

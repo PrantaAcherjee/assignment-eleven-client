@@ -1,24 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Ubuntu&display=swap');
+
+.mini-logo{
+color: rgba(172, 255, 47, 0.906);
+border-radius: 50%;
+padding: 9px;
+background-color: white;
+border: 3px solid cyan;
+letter-spacing: 4px;
+font-family: 'Poppins', sans-serif;
+}
+.logo{
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+text-shadow: 2px 2px black;
+word-spacing: 2px;
+letter-spacing: 1px;
+font-weight: 700;
+color: #fff;  
+}
 .headers a {
     color: white;
-    margin-left: 20px;
+    margin-left: 16px;
     text-decoration: none;
-    font-size: large;
-    font-weight: 700;
-}
-.headers button{
-    color: white;
-    background-color: darkorange;
-    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px rgb(104, 99, 99);
     font-weight: 500;
+      
 }
-.headers{
-    margin-bottom: 15px;
-    margin-top: 5px;
+.nav-sec{
+    background-image: linear-gradient(rgb(246, 182, 65), rgb(246, 195, 204));
+    padding: 1rem 0;
 }
  
- .logo{
-     color: crimson;
-     text-align: center;
-     align-items: center;
-     font-family: Georgia, 'Times New Roman', Times, serif;
- }
+ 
+
+ 
+ 
+ 
+ 
+  

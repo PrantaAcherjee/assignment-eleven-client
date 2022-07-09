@@ -15,7 +15,7 @@ import Header from './Components/Header/Header';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
      
       <AuthProvider>
       <BrowserRouter>
@@ -39,7 +39,7 @@ function App() {
       <PrivateRoute path="/addservice">
       <AddService></AddService>
       </PrivateRoute>
-      <PrivateRoute path="/manageuser">
+      <PrivateRoute path="/manageservice">
       <ManageUser></ManageUser>
       </PrivateRoute>
       <Route path="/faq">
@@ -50,8 +50,7 @@ function App() {
       </Route>
       </Switch>
       </BrowserRouter>
-      </AuthProvider>
-     
+      </AuthProvider>     
     </div>
   );
 }

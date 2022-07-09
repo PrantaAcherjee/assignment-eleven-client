@@ -9,8 +9,8 @@ import {
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-    faPhoneVolume,
-    faMapMarkedAlt,
+faPhoneVolume,
+faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -23,8 +23,9 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="left-container text-start">
-                                <h1>Travels Freak</h1>
-                                <div className="icons-container d-flex text-center ">
+                                <h3 className="logo">
+                                 Travels Freak</h3>
+                                <div className="icons-container d-flex text-center mt-4">
                                     <div className="icon">
                                         <FontAwesomeIcon icon={faInstagramSquare} />
                                     </div>
@@ -46,43 +47,37 @@ const Footer = () => {
                                     </small>
                                 </p>
 
-                                <p className="mt-5">
-                                    "Travels Freak"<small>© All rights reserved.</small>
-                                </p>
+                                
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="right-footer-container">
-                                <h3>Get your Destiny</h3>
-                                <input
-                                    className="footer-input"
-                                    type="text"
-                                    placeholder="Cross the beyond yourself !"
-                                />
-                                <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div className="foter-phone-icon">
-                                        <FontAwesomeIcon icon={faPhoneVolume} />
-                                    </div>
-                                    <div>
-                                        <h5>++2 33 343 567 650</h5>
-                                    </div>
-                                </div>
-                                <div className="map d-flex align-items-center justify-content-center">
-                                    <div className="foter-phone-icon">
-                                        <FontAwesomeIcon icon={faMapMarkedAlt} />
-                                    </div>
-                                    <div>
-                                        <p>
-
-                                            95 Faubourg Saint Honore
-                                            <br />
-                                            Ile-de-France -75019
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="col-md-3">
+                        <h4 className="text-start mb-4">Useful Links</h4>
+                         <ul className="list">
+                            <li><i class="fa-solid fa-location-arrow"></i> Home</li>
+                            <li> <i class="fa-solid fa-location-arrow"></i> About</li>
+                            <li><i class="fa-solid fa-location-arrow"></i> Contact</li>
+                            <li><i class="fa-solid fa-location-arrow"></i> Asked a question</li>
+                            <li><i class="fa-solid fa-location-arrow"></i> Delivery terms</li>
+                         </ul>
+                        </div>
+                        <div className="col-md-3">
+                          <h4 className="text-start mb-4">Reach Us</h4>
+                          <div className="d-flex justify-content-start">
+                           <FontAwesomeIcon icon={faMapMarkedAlt}  className="icons"/>
+                            <p className="content">932 Galvin St. Pompano Beach, FL 33060</p>
+                          </div> 
+                          <div className="d-flex justify-content-start">
+                          <FontAwesomeIcon icon={faPhoneVolume} className="icons"/>
+                            <p className="content">(334) 336 3346</p>
+                          </div> 
+                          <div className="d-flex justify-content-start">
+                          <i className="fa-solid fa-envelope icons"></i>
+                            <p className="content">Example@example.com</p>
+                          </div> 
                         </div>
                     </div>
+                    <hr/>
+                    <p className="mt-5">&copy; 2024 Travels Freak. Created by Pranta Acherjee</p>
                 </div>
             </div>
         </div>
@@ -90,3 +85,4 @@ const Footer = () => {
 };
 
 export default Footer;
+ 

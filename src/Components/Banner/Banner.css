@@ -1,7 +1,6 @@
 .banner {
     background-image: url('https://image.freepik.com/free-vector/isolated-airplane-background_1441-777.jpg') ;
-    height: 450px;
-    
+    height: 450px;   
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,5 +8,5 @@
     
   }
   .color{
-      color: blue;
+    color: blue;
   }

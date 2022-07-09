@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Ubuntu&display=swap');
+
 .footer-container {
-    background-color:black;
+    background-color:rgb(2, 22, 2);
     padding: 50px;
     color: rgb(216, 209, 209);
-    margin-top: 10px;
-     
+    font-family: 'Poppins', sans-serif;
   }
 
 .icon {
@@ -12,13 +13,24 @@
     background-color: rgb(46, 46, 46);
     color: rgb(155, 155, 155);
     font-size: 30px;
+
   }
   .icon:hover {
     background-color: goldenrod
   }
-
-  .foter-phone-icon {
-    font-size: 30px;
-    color:blue;
+  .icons{
+    text-align: left;
+     font-size: 28px;
+     margin-right: 10px;
   }
-  
+
+  .content{
+   text-align: start;
+   padding-left: 20px;
+  }
+  .list li{
+    list-style: none;
+    text-align: start;
+    margin: 7px 0;
+    cursor: pointer;
+  }
