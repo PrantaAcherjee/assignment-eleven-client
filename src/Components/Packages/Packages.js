@@ -41,17 +41,17 @@ fetch('https://cryptic-harbor-59269.herokuapp.com/services')
     }
     
     return (
-        <div className="services-section container mb-5">
+        <div className="services-section overflow-hidden">
          <h4>Explore Activities</h4>
-         <Slider {...settings} className="mx-5">
-         {packages.map(pack=><div
+         <Slider {...settings} className="mb-5">
+         {packages.map(pack=><div className='container'
            key={pack._id}>   
             <img className="img-fluid" src={pack.img} alt="" />
-            <h2 className="name-color">{pack.Name}</h2>
-            <h5>Price: ${pack.price}</h5>
+            <h5 className="">{pack.Name}</h5>
+            <p>Price: ${pack.price}</p>
             <p className=""><small>{pack.description}</small></p>   
             <Link to={`/order/${pack._id}`}>
-            <button className="bg-success text-white rounded-pill p-1">Confirm Tour</button>
+            <button className="common-btn">Book Now <i class="fa-solid fa-square-arrow-up-right"></i></button>
             </Link>
           </div>)
   }

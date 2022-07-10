@@ -10,9 +10,9 @@ const Home = () => {
         <div>
            
             <Carosel></Carosel>
+            <MobileApp></MobileApp>
             <Packages></Packages>
             <Cities></Cities>
-            {/* <MobileApp></MobileApp> */}
             <Footer></Footer>
         </div>
     );

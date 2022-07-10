@@ -1,5 +1,15 @@
+ 
  .services-section h4{
  font-size: 35px;
  font-weight: bold;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+ }
+
+ .common-btn{
+ border:none;
+ background-color: gray;
+ color: #fff;
+ padding: .7rem 2.2rem;
+ border-radius: 5px;
+ margin-bottom: 3rem;
  }
