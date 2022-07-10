@@ -1,8 +1,9 @@
- .card{
-     height: 200px;
- }
+ 
 .imagesAbout{
 height: 300px;
-border-radius: 5px;
+width: 500px;
+border-radius: 7px;
+object-fit: cover;
+margin: 10px 0;
 }
 

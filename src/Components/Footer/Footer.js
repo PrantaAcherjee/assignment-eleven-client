@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className="col-md-6">
                             <div className="left-container text-start">
                                 <h3 className="logo">
-                                 Travels Freak</h3>
+                                 Travels <span style={{color:'pink'}}>Freak</span></h3>
                                 <div className="icons-container d-flex text-center mt-4">
                                     <div className="icon">
                                         <FontAwesomeIcon icon={faInstagramSquare} />
