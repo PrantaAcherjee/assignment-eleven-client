@@ -1,14 +1,13 @@
 .banner-section{
-background-image:linear-gradient(rgba(80, 78, 78, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80');
-height: 550px;   
-background-blend-mode: overlay;
+background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80');
+height: 100vh;   
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
 }
 .content-section h1{
 font-size: 120px;
 font-weight: bolder;
+text-shadow: 2px 2px rgb(104, 99, 99);
 }
 @media (max-width:400px){
 .content-section h1{
@@ -21,12 +20,13 @@ font-weight: bolder;
 font-size: 35px;
 font-weight: bold;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: 1px 1px rgb(104, 99, 99);
 }
 .content-section p{
 font-size: 20px;
 font-weight:lighter;
 margin-bottom: 25px;
- 
+text-shadow: 0.5px 0.5px rgb(104, 99, 99); 
 }
 
 .content-section{

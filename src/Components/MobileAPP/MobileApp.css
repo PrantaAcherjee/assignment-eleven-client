@@ -8,6 +8,9 @@ font-size: 28px;
 font-weight: 700;
 margin-bottom: 4rem;
 margin-top: 2.5rem;
-line-height: 45px;
- 
+line-height: 45px; 
+}
+.left-section{
+border: 1px solid lightgray;
+border-radius: 10px 0 10px 0;
 }
